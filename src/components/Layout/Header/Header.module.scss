@@ -1,0 +1,33 @@
+@import '../../../shared/styles/adaptive';
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px !important;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stack {
+    display: flex;
+    align-items: center;
+
+    & a:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
+.title {
+    @include desk-to-tablet('font-size', 24, 20);
+    @include tablet-to-mobile('font-size', 20, 16);
+    @include mobile-to-320('font-size',16, 14);
+}
+
+.adminImg {
+    @include mobile-to-320('min-width', 30, 26);
+}

@@ -1,0 +1,18 @@
+@mixin desk-to-tablet($property, $startSize, $minSize, ) {
+    $addSize: $startSize - $minSize;
+    #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 1024px) / #{1440 - 1024})) !important;
+}
+
+@mixin tablet-to-mobile($property, $startSize, $minSize, ) {
+    @media screen and (max-width: 1024px) {
+        $addSize: $startSize - $minSize;
+        #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw  - 576px) / #{1024 - 576})) !important;
+    }
+}
+
+@mixin mobile-to-320($property, $startSize, $minSize, ) {
+    @media screen and (max-width: 576px) {
+        $addSize: $startSize - $minSize;
+        #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw  - 320px) / #{576 - 320})) !important;
+    }
+}

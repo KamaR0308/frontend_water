@@ -1,0 +1,37 @@
+@import '../../shared/styles/adaptive';
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    height: 100svh;
+    width: 100%;
+}
+
+.paper {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    @include desk-to-tablet('widht',  500, 400);
+    @include tablet-to-mobile('width', 400, 300);
+    padding: 20px 30px;
+
+    &__subcontent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__ava {
+        width: 60px !important;
+        height: 60px !important;
+        margin-bottom: 10px;
+    }
+
+    &__supcontent {
+        text-align: center;
+    }
+}

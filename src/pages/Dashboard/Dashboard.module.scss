@@ -1,0 +1,16 @@
+.content_dashboard{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+    gap: 20px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__active {
+    border: 1px solid gray;
+}

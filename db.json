@@ -1,0 +1,48 @@
+{
+  "location": [
+    {
+      "number": 1,
+      "uuid": "157e06e6-439c-424a-a4f8-1a548345a656",
+      "data": {
+        "id": "5a93662a-cb5a-49ab-81f4-1e14271b69ab",
+        "product": "test1",
+        "shop": "test1",
+        "site": "test1",
+        "floor": "1",
+        "room": "1"
+      }
+    },
+    {
+      "number": 2,
+      "uuid": "73f9aa5b-d75f-4749-b268-ac15e6672de2",
+      "data": {
+        "id": "5a93662a-cb5a-49ab-81f4-1e14271b69ab",
+        "product": "test2",
+        "shop": "test2",
+        "site": "test2",
+        "floor": "2",
+        "room": "2"
+      }
+    }
+  ],
+  "users": [
+    {
+      "number": 1,
+      "uuid": "157e06e6-439c-424a-a4f8-1a548345a656",
+      "data": {
+        "id": "5a93662a-cb5a-49ab-81f4-1e14271b69ab",
+        "product": "test1",
+        "name": "user1"
+      }
+    },
+    {
+      "number": 2,
+      "uuid": "73f9aa5b-d75f-4749-b268-ac15e6672de2",
+      "data": {
+        "id": "5a93662a-cb5a-49ab-81f4-1e14271b69ab",
+        "product": "test2",
+        "name": "user2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+.admin_btn{
+    padding: 20px;
+    height: 90px !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2e7d32;
+    color: white;
+    button{
+        color: white;
+        border: 1px solid white;
+        
+    }
+}
+
+.modalOne{
+   margin-bottom: 15px !important;
+}
+
+.modal_btn{
+    background-color: #2e7d32 !important;
+    color: white !important;
+}
